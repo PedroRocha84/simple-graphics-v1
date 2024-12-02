@@ -79,6 +79,19 @@ public class Color {
         this.green = green;
         this.blue = blue;
     }
+    /**
+     * Changes the color object, sets a new color
+     *
+     * @param red   the red value of the color (between 0 and 255)
+     * @param green the green value of the color (between 0 and 255)
+     * @param blue  the blue value of the color (between 0 and 255)
+     */
+
+    public void ChangeColor(int red, int green, int blue){
+        this.red = red;
+        this.green = green;
+        this.blue = blue;
+    }
 
     /**
      * Gets the red value of this color.
